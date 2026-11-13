@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            background-image: url(pics/cat.jpg);
+            /* opacity: 0.3; */
+            background-repeat: no-repeat;
+            background-position: center bottom;
+        }
+
+        img{
+            float: left;
+            /* width: 200px; */
+            width: 100px;
+            /* height: 100px; */
+            overflow: hidden;
+            border: 5px solid red;
+            border-radius: 20px;
+            box-shadow: 3px 3px 5px 5px brown;
+            filter: grayscale(1);
+            opacity: 0.5;
+        }
+
+        img:hover{
+            filter: grayscale(0);
+            width: 110px;
+            opacity: 1;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+        .right{
+            float: right;
+        }
+
+        .p1{
+            height: 100px;
+            border: 2px solid blue;
+            overflow: scroll;
+        }
+
+    </style>
+</head>
+<body>
+    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, totam! Nobis possimus consectetur 
+        error distinctio vero itaque fugiat eum ratione aliquid quia. Obcaecati corporis, ipsum ad assumenda 
+        similique dicta, quae, eaque aspernatur vero modi molestias! Doloribus aperiam optio animi, autem 
+        praesentium sit aut fuga minima nobis quibusdam alias labore quod molestiae, esse distinctio quasi 
+        consequuntur laboriosam, modi quidem dolorum natus cum earum dignissimos. Est amet dolor, beatae 
+        aspernatur id nihil optio ipsa enim quia minus ipsam sunt laborum delectus, sapiente earum doloribus 
+        saepe voluptatibus? Expedita magnam reprehenderit odio? Maiores odio quas doloremque sapiente sunt. 
+        Soluta vero voluptate distinctio voluptatem dolorem eos iste, accusamus nihil possimus suscipit architecto 
+        libero, porro esse magnam laborum asperiores rem quam neque, facilis facere ab autem doloremque perferendis 
+        eligendi? In, quod commodi sequi id doloribus perspiciatis ullam non laboriosam illo ipsam laudantium 
+        temporibus quas praesentium voluptas, minus aliquid ad labore cum vitae quibusdam iusto officiis excepturi! 
+        Dolore deserunt illum voluptatibus totam hic at quos qui, eos velit blanditiis delectus saepe, sint 
+        eveniet distinctio, quo ipsa repudiandae! Eius repudiandae necessitatibus quo, voluptas nostrum molestiae 
+        ex quam rerum veritatis quia voluptatum perspiciatis nulla debitis, sapiente, quis voluptate! Sapiente 
+        numquam consectetur nulla commodi alias in ipsa facere similique nesciunt!</p>
+    <img src="pics/cat.jpg" alt="Котик">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit laboriosam provident dignissimos, 
+        nemo maxime culpa esse totam enim voluptatem ex consequuntur iste, temporibus quaerat eius eaque 
+        nisi ratione cum magni, in assumenda. Repellendus vitae quibusdam esse aperiam, sit nihil asperiores.</p>
+    <div class="clear"></div>
+
+    <img class="right" src="pics/cat.jpg" alt="Котик">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit laboriosam provident dignissimos, 
+        nemo maxime culpa esse totam enim voluptatem ex consequuntur iste, temporibus quaerat eius eaque 
+        nisi ratione cum magni, in assumenda. Repellendus vitae quibusdam esse aperiam, sit nihil asperiores.</p>
+    <div class="clear"></div>
+
+    <img src="pics/cat.jpg" alt="Котик">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit laboriosam provident dignissimos, 
+        nemo maxime culpa esse totam enim voluptatem ex consequuntur iste, temporibus quaerat eius eaque 
+        nisi ratione cum magni, in assumenda. Repellendus vitae quibusdam esse aperiam, sit nihil asperiores.</p>
+</body>
+</html>
