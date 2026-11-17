@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul{
+            list-style: none;
+            padding: 0;
+            width: 600px;
+            margin: auto;
+            border-bottom: 1px solid #8a8a8a;
+            border-right: 1px solid #8a8a8a;
+            border-left: 1px solid #8a8a8a;
+        }
+
+        li{
+            display: inline-block;
+            width: 96px;
+            border-right: 1px solid #8a8a8a;
+            /* border-bottom: 1px solid #8a8a8a; */
+            margin: 0px;
+            /* padding: 15px; */
+        }
+
+        li:nth-child(6){
+            border-right: none;
+        }
+
+        a{
+            padding: 15px;
+            display: block;
+        }
+        .container{
+            width: 800px;
+            margin: auto;
+            background-color: #dddcdc;
+            padding: 40px 20px;
+        }
+
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            padding: 30px;
+            width: 600px;
+            border: 1px solid #8a8a8a;
+            margin: auto;
+            border-bottom: none;
+        }
+
+        .big{
+            text-align: center;
+            padding: 40px;
+            width: 600px;
+            border: 1px solid #8a8a8a;
+            margin: auto;
+            /* border-bottom: none; */
+        }
+        iframe{
+            width: 256px;
+            height: 256px;
+            border: none;
+        }
+
+        </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cats gallery</h1>
+        <div class="big">
+            <iframe src="icons/cat_box_256.png" name="cats"></iframe>
+
+        </div>
+        <ul>
+            <li><a href="icons/cat_box_256.png" target="cats"><img src="icons/cat_box_64.png" alt=""></a></li>
+            <li><a href="icons/cat_cage_256.png" target="cats"><img src="icons/cat_cage_64.png" alt=""></a></li>
+            <li><a href="icons/cat_clean_256.png" target="cats"><img src="icons/cat_clean_64.png" alt=""></a></li>
+            <li><a href="icons/cat_eyes_256.png" target="cats"><img src="icons/cat_eyes_64.png" alt=""></a></li>
+            <li><a href="icons/cat_purr_256.png" target="cats"><img src="icons/cat_purr_64.png" alt=""></a></li>
+            <li><a href="icons/cat_tied_256.png" target="cats"><img src="icons/cat_tied_64.png" alt=""></a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
