@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ramka{
+            width: 500px;
+            height: 50px;
+            border: 2px solid rgb(214, 130, 3);
+        }
+
+        .block{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(214, 130, 3);
+            margin-left: 200px; 
+
+            animation: anime 3s linear 0s infinite;
+
+        }
+
+        @keyframes anime {
+            0%{
+                margin-left: 0px;
+            }
+
+
+            100%{
+                margin-left: 450px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="ramka">
+        <div class="block"></div>
+    </div>
+</body>
+</html>
