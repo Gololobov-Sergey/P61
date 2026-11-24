@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style >
+        *{
+            box-sizing: border-box;
+        }
+
+        h1{
+            text-align: center;
+            margin-top: 120px;
+        }
+
+        .block{
+            width: 800px;
+            height: 300px;
+            border: 5px solid rgb(100, 4, 100);
+            margin: 0 auto;
+            position: relative;
+            perspective: 1px;
+            
+        }
+
+        .ramka1{
+            width: 400px;
+            height: 300px;
+            border: 5px solid rgb(100, 4, 100);
+            position: absolute;
+            background-color: rgb(161, 6, 161);
+            top: -5px;
+            left: -5px;
+            transform-origin: left;
+            /* animation: anime1 2s linear 0s infinite ; */
+            transition: transform 1s ease 0s;
+        }
+
+        .ramka2{
+            width: 400px;
+            height: 300px;
+            border: 5px solid rgb(100, 4, 100);
+            position: absolute;
+            background-color: rgb(161, 6, 161);
+            top: -5px;
+            left: 395px;
+            transform-origin: right;
+            /* animation: anime2 2s linear 0s infinite ; */
+
+            transition: transform 1s ease 0s;
+        }
+
+        .block:hover > .ramka1{
+            transform: rotateY(70deg);
+            
+        }
+
+        .block:hover > .ramka2{
+            transform: rotateY(-70deg);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="block">
+        <h1>HELLO</h1>
+        <div class="ramka1"></div>
+        <div class="ramka2"></div>
+    </div>
+</body>
+</html>

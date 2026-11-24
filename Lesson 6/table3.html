@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            color: antiquewhite;
+        }
+
+        td{
+            padding: 10px;
+        }
+
+        thead{
+            background-color: aqua;
+        }
+
+        tbody{
+            /* background-color: burlywood; */
+            color: brown;
+        }
+
+        tfoot{
+            background-color: brown;
+            color: antiquewhite;
+            font-weight: bold;
+        } 
+
+        .c2{
+            background-color: cornflowerblue;
+
+        }
+
+        .c1{
+            background-color: cadetblue;
+        }
+
+        .c3{
+            background-color: blueviolet;
+        }
+
+        caption{
+            color: black;
+            caption-side: top;
+            text-align: end;
+        }
+
+
+        span{
+            display: inline-block;
+            color: aliceblue;
+            border: 2px solid white;
+            width: 30px;
+            border-radius: 50%;
+            text-align: center;
+            font-weight: 900;  
+        }
+
+        .plus{
+            height: 23px;
+            padding-top: 7px;
+        }
+
+        .minus{
+            height: 25px;
+            padding-top: 5px;
+        }
+    </style>
+    
+</head>
+<body>
+    <table>
+        <caption>TABLE</caption>
+        <colgroup>
+            <col span="1" class="c1">
+            <col span="4" class="c2">
+            <col span="2" class="c3">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>cell</th>
+                <th>cell</td>
+                <th>cell</th>
+                <th>cell</th>
+                <th>cell</th>
+                <th>cell</th>
+                <th>cell</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+            </tr>
+            <tr>
+                <td>cell</td>
+                <td>cell</td>
+                <td><span class="plus">+</span></td>
+                <td><span class="plus">+</span></td>
+                <td><span class="minus">-</span></td>
+                <td><span class="plus">+</span></td>
+                <td>cell</td>
+            </tr>
+            <tr>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
